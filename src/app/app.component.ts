@@ -34,11 +34,11 @@ export class AppComponent implements OnInit {
     );
 
     //fill all of form
-    this.inputForm.setValue({
-      'username' : 'iuiui',
-      'email' : 'g@c.com',
-      'gender' : 'female'
-    });
+    // this.inputForm.setValue({
+    //   'username' : 'iuiui',
+    //   'email' : 'g@c.com',
+    //   'gender' : 'female'
+    // });
 
     //fill all of form
     this.inputForm.patchValue({
